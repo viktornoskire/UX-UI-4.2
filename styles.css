@@ -42,9 +42,8 @@
   }
   
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
   }
   
   .container {
@@ -52,6 +51,10 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+
+  .container img {
+    cursor: pointer;
   }
   
   .subtitle {
@@ -80,12 +83,7 @@
     color: var(--color-cream);
   }
   
-  .btn-primary:hover {
-    background-color: transparent;
-    color: var(--color-charcoal);
-  }
-  
-  .btn-secondary {
+  .btn-primary:hover, .btn-secondary {
     background-color: transparent;
     color: var(--color-charcoal);
   }

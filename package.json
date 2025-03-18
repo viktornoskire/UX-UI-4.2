@@ -1,0 +1,23 @@
+{
+  "name": "ux-ui-4.2",
+  "version": "1.0.0",
+  "description": "Save Our Site - Solve the issues deep below the surface!",
+  "homepage": "https://github.com/viktornoskire/UX-UI-4.2#readme",
+  "bugs": {
+    "url": "https://github.com/viktornoskire/UX-UI-4.2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktornoskire/UX-UI-4.2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}
